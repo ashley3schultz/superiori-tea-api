@@ -6,14 +6,9 @@ class GameController < ApplicationController
   end
 
   def create
-    @game = Game.create(game_params)
+    user = User.find_or_create_by(user: params[:user])
+    @game = Game.create(user_id: user.id, score: params[:score])
     render json: @game
   end
-
-  private
-
-    def game_params
-      params.reuire(:game).permit(:user, :score)
-    end
 
 end
