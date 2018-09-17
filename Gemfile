@@ -26,7 +26,7 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+git@github.com:ashley3schultz/superiori-tea-api.git
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
