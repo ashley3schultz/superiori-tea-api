@@ -1,5 +1,5 @@
-user1 = User.create(user: 'Teahead')
-user2 = User.create(user: 'Tea King')
+user1 = User.create(name: 'Teahead')
+user2 = User.create(name: 'Tea King')
 Game.create(user_id: user1.id, score: 1259)
 Game.create(user_id: user2.id, score: 1386)
 Game.create(user_id: user1.id, score: 1423)
