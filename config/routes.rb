@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
-    resources :games, only: [:index, :create]
-    # resources :users, only: [:show]
+  namespace :api do
+      namespace :v1 do
+        resources :games, only: [:index, :create]
+      end
+  end
 end
