@@ -2,7 +2,7 @@ module Api::V1
     class GamesController < ApplicationController
 
         def index
-            render json: Game.order('score DESC')
+            render json: Game.all
         end
 
         def create
