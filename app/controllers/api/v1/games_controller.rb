@@ -2,15 +2,18 @@ module Api::V1
     class GamesController < ApplicationController
 
         def index
-            @games = Game.order('score DESC')
-            render json: @games
+            render json: Game.order('score DESC')
         end
 
         def create
-            user = User.find_or_create_by(name: params[:game][:name])
-            @game = Game.create(score: params[:game][:score], user_id: user.id)
-            render json: @game
+            render json: Game.create(game_params)
         end
+
+        private 
+
+        def game_params
+            params.require(:game).permit(:user, :score)
+        end 
     end
 end
 
