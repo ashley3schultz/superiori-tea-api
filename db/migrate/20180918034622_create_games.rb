@@ -3,6 +3,7 @@ class CreateGames < ActiveRecord::Migration[5.2]
     create_table :games do |t|
       t.string :user
       t.integer :score
+      t.integer :likes
       t.timestamps
     end
   end
