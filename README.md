@@ -1,7 +1,7 @@
 # Superiori-Tea-API
 **API built to support a react tea harvesting game**
 
-Superiori-Tea is a game with five challenges. Each challange is scored based on meeting specific criterias and the time it took to complete the challange. When the final challange is completed, your score is saved in the database. If you were able to beat the top score, you will be added to the leaderboard. 
+Superiori-Tea is a game with five challenges. Each challenge is scored based on meeting specific conditions and the time it took to complete the challenge. When the final challenge is completed, your score is saved in the database. If you were able to beat the top score, you will be added to the leaderboard. 
 
 [Play Game](https://superiori-tea.herokuapp.com/)
 
@@ -12,9 +12,9 @@ Superiori-Tea is a game with five challenges. Each challange is scored based on 
 * Allows new game persistence from game app
 
 ## Using the API
-Superiori-Tea-API is hosted on heroku and can be viewed at https://superiori-tea-api.herokuapp.com/
+Superiori-Tea-API is hosted on Heroku and can be viewed at https://superiori-tea-api.herokuapp.com/
 
-## Munnual Installation 
+## Manual Installation 
 
 ### Getting Started 
 Make sure Ruby and Rails is installed on device.
@@ -42,7 +42,7 @@ From the command line:
 * postgresql
 * rack cors
  
-## Referances
-* [Live Webite](https://superiori-tea.herokuapp.com/)
+## References
+* [Live Website](https://superiori-tea.herokuapp.com/)
 * [Live API](https://superiori-tea-api.herokuapp.com/)
 * [React App Repo](https://github.com/ashley3schultz/superiori-tea-api)
