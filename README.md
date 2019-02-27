@@ -1,5 +1,5 @@
 # Superiori-Tea-API
-**Built to support a react tea harvesting game**
+**API built to support a react tea harvesting game**
 
 Superiori-Tea is a game with five challenges. Each challange is scored based on meeting specific criterias and the time it took to complete the challange. When the final challange is completed, your score is saved in the database. If you were able to beat the top score, you will be added to the leaderboard. 
 
@@ -7,7 +7,7 @@ Superiori-Tea is a game with five challenges. Each challange is scored based on 
 
 ![screenshot](https://raw.githubusercontent.com/ashley3schultz/superiori-tea/master/src/components/images/screenshot.png)
 
-## Application features
+## API features
 * Allows fetch request from game app
 * Allows new game persistence from game app
 
